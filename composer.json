@@ -1,0 +1,47 @@
+{
+    "name": "finq/ihamkor",
+    "description": "Laravel package for i-Hamkor API integration",
+    "keywords": ["laravel", "ihamkor", "api", "uzbekistan"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Finq",
+            "email": "info@finq.uz"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "illuminate/contracts": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Finq\\Ihamkor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Finq\\Ihamkor\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Finq\\Ihamkor\\IhamkorServiceProvider"
+            ],
+            "aliases": {
+                "Ihamkor": "Finq\\Ihamkor\\Facades\\Ihamkor"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
