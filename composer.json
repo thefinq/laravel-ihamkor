@@ -1,5 +1,5 @@
 {
-    "name": "finq/ihamkor",
+    "name": "finq/laravel-ihamkor",
     "description": "Laravel package for i-Hamkor API integration",
     "keywords": ["laravel", "ihamkor", "api", "uzbekistan"],
     "license": "MIT",

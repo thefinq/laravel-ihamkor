@@ -12,7 +12,7 @@ Laravel package for i-Hamkor API integration.
 Install the package via Composer:
 
 ```bash
-composer require finq/ihamkor
+composer require finq/laravel-ihamkor
 ```
 
 The package will automatically register its service provider.
