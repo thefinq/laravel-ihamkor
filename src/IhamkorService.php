@@ -38,7 +38,6 @@ class IhamkorService
         return $this->send('gnk/data/marketplace-taxi', [
             'pinfl' => $pinfl,
             'signature' => $signature,
-            'lang' => 'uz',
         ]);
     }
 
